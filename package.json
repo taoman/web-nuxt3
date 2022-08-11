@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^9.0.2",
+    "@vueuse/nuxt": "^8.9.4",
+    "nuxt": "3.0.0-rc.6",
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

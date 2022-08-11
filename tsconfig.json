@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
+  "include": [
+    "./index.d.ts",
+    "./.nuxt/*.d.ts",
+    // "./.nuxt/nuxt.d.ts",
+    "./**/*",
+    "./node_modules/**/*"
+  ],
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
+}
