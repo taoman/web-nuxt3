@@ -543,3 +543,7 @@ defineExpose({
   }
 }
 </style>
+<!-- /root/test/web-nuxt3/.output/public
+location ~ \/.*\.(js|ts|css|json|png|ttf|otf|jpg)$ {
+      root /root/test/web-nuxt3/.output/public;
+    } -->

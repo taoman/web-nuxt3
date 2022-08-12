@@ -1,9 +1,13 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage/>
-    </NuxtLayout>
-  </div>
+  <ClientOnly>
+    <Teleport to="body">
+      <div>
+        <NuxtLayout>
+          <NuxtPage :key="$route.fullPath" />
+        </NuxtLayout>
+      </div>
+    </Teleport>
+  </ClientOnly>
 </template>
 <script lang="ts" setup>
 let rootDom: null | HTMLHtmlElement = null;
