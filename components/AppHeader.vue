@@ -1,6 +1,6 @@
 <template>
   <header class="app-header">
-    <h1 class="seo">甘谷水蜜桃</h1>
+    <h1 class="seo">甘谷红辣椒</h1>
     <div class="desktop" v-if="isDesktop">
       <div class="header">
         <!-- <img
@@ -9,7 +9,7 @@
           alt="logo"
           @click="toIndex"
         /> -->
-        甘谷水蜜桃
+        甘谷红辣椒
         <div class="action-list">
           <NuxtLink
             to="/"
@@ -29,7 +29,7 @@
             />
           </div>
           <div :class="['item', desktopActiveMap[3] ? 'item__active' : '']">
-            <NuxtLink to="/about"> 关于我们 </NuxtLink>
+            <NuxtLink to="/"> 关于我们 </NuxtLink>
           </div>
           <div class="item">
             <img
@@ -175,49 +175,49 @@ const productList = [
     icon: logo1,
     title: "云贩",
     subtitle: "品牌全渠道进销存管理",
-    url: "/services/mallmodepsi"
+    url: ""
   },
   {
     icon: logo2,
     title: "365缤纷购智慧门店工具",
     subtitle: "赋能一线零售门店，实现高效营销",
-    url: "/services/365app"
+    url: ""
   },
   {
     icon: logo3,
     title: "云Mall",
     subtitle: "协助商场高效构建数字化购物中心",
-    url: "/services/YunMall"
+    url: ""
   },
   {
     icon: logo4,
     title: "智慧云屏",
     subtitle: "商场营销+消费者服务一体化平台",
-    url: "/services/yunping"
+    url: ""
   },
   {
     icon: logo5,
     title: "基于腾讯企业微信的</br>私域流量运营服务",
     subtitle: "",
-    url: "/qyWechat"
+    url: ""
   },
   {
     icon: logo6,
     title: "微奥莱",
     subtitle: "线上奥莱+TOD城市奥莱的全渠道特卖",
-    url: "/services/weoutlets"
+    url: ""
   },
   {
     icon: logo7,
     title: "为商",
     subtitle: "零售行业全方位信息聚合应用",
-    url: "/services/wedealerapp"
+    url: ""
   },
   {
     icon: logo8,
     title: "云猫·猫聘零售HRM",
     subtitle: "零售企业身边的人力资源管理专家",
-    url: "/services/mallHr"
+    url: ""
   }
 ];
 const desktopActiveMap = reactive({
