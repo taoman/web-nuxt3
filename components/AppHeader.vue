@@ -3,13 +3,12 @@
     <h1 class="seo">甘谷红辣椒</h1>
     <div class="desktop" v-if="isDesktop">
       <div class="header">
-        <!-- <img
+        <img
           class="logo"
           src="@/assets/images/header-logo.png"
           alt="logo"
           @click="toIndex"
-        /> -->
-        甘谷红辣椒
+        />
         <div class="action-list">
           <NuxtLink
             to="/"
@@ -29,7 +28,7 @@
             />
           </div>
           <div :class="['item', desktopActiveMap[3] ? 'item__active' : '']">
-            <NuxtLink to="/"> 关于我们 </NuxtLink>
+            <NuxtLink to="/about"> 关于我们 </NuxtLink>
           </div>
           <div class="item">
             <img
