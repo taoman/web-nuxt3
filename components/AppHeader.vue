@@ -1,6 +1,6 @@
 <template>
   <header class="app-header">
-    <h1 class="seo">甘谷红辣椒</h1>
+    <h1 class="seo">web-wedealer</h1>
     <div class="desktop" v-if="isDesktop">
       <div class="header">
         <img
