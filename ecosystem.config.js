@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: '甘谷红辣椒',
+        name: 'web-wedealer',
         script: './.output/server/index.mjs',
         watch: false,
         error_file: './logs/azur-lane-qq.error.log',
