@@ -1,14 +1,15 @@
 <template>
   <header class="app-header">
-    <h1 class="seo">为商云服</h1>
+    <h1 class="seo">甘谷水蜜桃</h1>
     <div class="desktop" v-if="isDesktop">
       <div class="header">
-        <img
+        <!-- <img
           class="logo"
           src="@/assets/images/header-logo.png"
           alt="logo"
           @click="toIndex"
-        />
+        /> -->
+        甘谷水蜜桃
         <div class="action-list">
           <NuxtLink
             to="/"
